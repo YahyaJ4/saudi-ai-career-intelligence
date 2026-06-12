@@ -1,20 +1,22 @@
 Saudi AI Career Intelligence Platform
 
 Goal:
-Build a RAG system aligned with Vision 2030.
+Build a retrieval-augmented career intelligence system aligned with Vision 2030.
 
-Category 1:
+Current focus:
 - Vision 2030 reports
 - SDAIA AI strategy
-- HCDP
-- ICT strategy
+- Human capital development plans
+- Skills frameworks
+- Parsed Saudi AI job postings
 
 Future categories:
-- GDP job postings
 - company profiles
 - labor market reports
+- career program guidance
 
 Features:
 - skill-gap analysis
-- resume matching
-- career roadmap generation
+- resume positioning support
+- career roadmap recommendations
+- dashboard-ready market signals

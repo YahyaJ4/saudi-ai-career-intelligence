@@ -1,55 +1,46 @@
 # Project Story
 
-## Short Version
+## Short version
 
-Saudi AI Career Intelligence is a retrieval-augmented career intelligence system that helps Saudi CS/AI students and fresh graduates understand the Saudi job market, identify required skills, and decide what projects, activities, and experiences to build before graduation.
+Saudi AI Career Intelligence is a practical labor market intelligence product for Saudi AI, data, and technology careers. It helps students, early-career professionals, and recruiters understand what the market actually asks for and how to turn those signals into portfolio-ready projects.
 
-## Personal Motivation
+## Personal motivation
 
-As a master's student entering the Saudi AI job market, I found it difficult to understand which skills, projects, and experiences employers actually valued. Job postings often mention many tools and responsibilities, but it is hard for students to know which signals matter most and how to prepare before graduation.
+As a master's student looking for roles in the Saudi AI job market, I found it difficult to interpret noisy job descriptions and connect national strategy documents to real hiring demand. I built this project to make those signals actionable for career planning.
 
-To solve this, I started collecting job postings I had applied to and used them as a real dataset. I built a pipeline that parses numbered LinkedIn job application PDFs, extracts job descriptions and requirements, and analyzes the roles, sectors, skills, tools, and experience levels appearing across the postings.
+## What the project does
 
-## What The Project Does
+The project combines real LinkedIn job postings with national strategy and skills resources to create a data-backed view of Saudi AI career demand.
 
-The system analyzes:
+It includes:
 
-- job postings
-- required skills and tools
-- role categories
-- sector demand
-- company information
-- career pathways
-- personal profile data
-- national AI and strategy documents
+- parsed job postings from real application documents
+- role category and sector analysis
+- skills and tools frequency extraction
+- Power BI-ready data exports
+- retrieval-augmented architecture planning
 
-The long-term goal is to connect this data through a retrieval-augmented system so students can ask questions such as:
+The long-term goal is to support questions like:
 
-- What skills do AI Engineer roles in Saudi Arabia ask for most often?
-- What projects should I build before graduation?
-- How do Data Scientist and AI Engineer roles differ?
-- Which sectors are hiring for GenAI and RAG skills?
-- What is missing from my profile compared with the market?
+- Which AI/data skills are most requested by Saudi employers?
+- What projects should I highlight for AI engineering roles?
+- Where do GenAI and RAG skills appear in sector demand?
+- How can I align my profile with Saudi national strategy themes?
 
-## Why It Matters
+## Why it matters
 
-Many students graduate with technical knowledge but without a clear map of what the market rewards. This project turns job-search uncertainty into structured career intelligence.
+Saudi AI career search can feel disconnected from the actual market. This project brings clarity by turning messy inputs into structured insights, helping both students and recruiters make better decisions.
 
-For students, it provides a practical way to prepare. For recruiters and employers, it demonstrates the ability to build useful AI systems around messy real-world data.
+For the portfolio, it demonstrates work on labor market analytics, data engineering, and AI product design.
 
-## Current Status
+## Current status
 
-The first version uses 72 parsed job postings from a personal LinkedIn application-history dataset. It already generates market summaries for role categories, sectors, skills/tools, companies, and experience requirements.
+- Completed: 72 parsed LinkedIn job postings and raw-text preservation.
+- Completed: market analysis outputs for role categories, sectors, skills/tools, companies, locations, and seniority.
+- Completed: Power BI-ready export design and documentation.
+- In progress: RAG assistant architecture and Streamlit prototyping.
 
-The next version will add:
+## Future direction
 
-- LangChain retrieval
-- Chroma vector storage
-- Streamlit demo interface
-- Dockerized setup
-- student-facing career recommendations
-
-## One-Sentence Pitch
-
-I built a retrieval-augmented career intelligence system that analyzes Saudi AI/data job postings and career documents to help students understand market demand and prepare stronger projects before graduation.
+The next phase will add a LangChain + Chroma retrieval assistant, a student-facing Streamlit dashboard, and a Docker-ready delivery package.
 

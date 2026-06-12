@@ -1,40 +1,41 @@
 # Dashboard Insights
 
-## Dataset Scope
+## Dataset scope
 
-This dashboard uses 72 parsed job postings from the student's LinkedIn application history. It is not a full labor-market dataset, but it is highly useful because it reflects the roles the student is actively targeting.
+This dashboard is built from 72 parsed LinkedIn job postings. It is a focused dataset that reflects real application targets and provides early labor-market intelligence for Saudi AI and data roles.
 
-## Role Category Insight
+## Key findings
 
-The strongest role categories are:
+- The dataset is concentrated on AI, data science, and technology roles.
+- Role categories show strong demand for Data Science, AI Engineering, Consulting, GenAI / LLM, and Software Engineering.
+- Sector demand is weighted toward technology, with Fintech and consulting offering strategic portfolio opportunities.
+- Skills and tools repeatedly include PyTorch, TensorFlow, Docker, SQL, Azure, AWS, MLOps, LangChain, and RAG-related capabilities.
 
+## Role category insight
+
+The current dataset suggests that the strongest positioning is a hybrid AI/data engineering profile that highlights practical systems work, model deployment, and applied analytics.
+
+## Sector insight
+
+Technology is the dominant sector. Fintech and consulting are smaller but valuable signals because they reward applied AI, cross-functional communication, and product delivery.
+
+## Skills insight
+
+Key skill signals include:
+
+- Artificial Intelligence
+- Machine Learning
 - Data Science
-- AI Engineering
-- Consulting
-- GenAI / LLM
-- Software Engineering
+- Large Language Models
+- NLP
+- Research
+- Data Analysis
 
-This suggests the student's positioning should be broad enough to cover AI/data engineering but specific enough to show practical AI systems work.
+These are aligned with a portfolio that emphasizes Python, ML experimentation, and practical AI solutions.
 
-## Sector Insight
+## Tools and technology insight
 
-Technology dominates the dataset. Fintech and consulting appear less frequently but are strategically important because they match the student's interests and can reward applied AI, analytics, and communication skills.
-
-## Skills Insight
-
-The strongest skill signals are AI, Machine Learning, Data Science, Research, Data Analysis, Large Language Models, NLP, and Deep Learning.
-
-This aligns well with the student's current strengths:
-
-- Python
-- PyTorch
-- RAG
-- applied machine learning
-- AI research experience
-
-## Tools And Technology Insight
-
-The strongest tool/technology signals are:
+Important tool signals are:
 
 - PyTorch
 - TensorFlow
@@ -43,48 +44,31 @@ The strongest tool/technology signals are:
 - Azure
 - AWS
 - MLOps
-- RAG
+- LangChain
 - Kubernetes
 - FastAPI
 
-This confirms the student's planned focus areas:
+This points to a portfolio focus on deployment readiness, cloud tooling, and end-to-end AI engineering.
 
-- Docker
-- SQL
-- LangChain
-- Power BI
-- deployment and MLOps basics
+## Location insight
 
-## Location Insight
+Many jobs lack clear location details. Among explicit locations, Saudi Arabia and Riyadh are key signals. This reinforces the importance of including location-focused keywords in the portfolio and application materials.
 
-Many postings do not clearly specify location. Among visible locations, Saudi Arabia and Riyadh are important signals, with some remote, hybrid, and on-site mentions.
+## Seniority insight
 
-For future parsing improvements, location extraction should be enhanced because job postings often include location in inconsistent ways.
+The dataset spans entry-level, early-career, mid-level, and senior roles. That means students should reduce perceived experience risk by showing strong project evidence and delivery focus.
 
-## Seniority Insight
+## Portfolio recommendation
 
-The dataset includes senior, mid-level, entry-level, fresh graduate, and unspecified roles. This is normal for a job search dataset, but it means the student should reduce "experience risk" by showing project evidence.
-
-The best response is not just more applications. It is a stronger portfolio that proves:
-
-- applied AI implementation
-- data analysis and dashboarding
-- deployment readiness
-- communication of insights
-
-## Portfolio Recommendation
-
-The best next project sequence is:
+Recommended project sequence:
 
 1. Saudi AI Job Market Dashboard
 2. Fintech RAG Analyst
 3. ML Prediction API with Docker
 
-This sequence is strong because it turns the student's job search into a portfolio asset, then adds RAG engineering and deployment evidence.
+This sequence combines market analysis, retrieval engineering, and deployment readiness.
 
-## Interview Narrative
+## Narrative for interviews
 
-Use this answer when asked what you have been doing after graduation:
-
-> After graduating, I focused on understanding the Saudi AI/data job market and building a portfolio around the skills employers repeatedly ask for. I collected and parsed job postings, built a Power BI-ready market analysis pipeline, and started turning the insights into practical projects around RAG, data analysis, Docker, and AI engineering.
+> I built a practical labor market intelligence project around Saudi AI careers. I parsed real job postings, generated Power BI-ready market analysis, and am bringing the work together into a RAG-backed career assistant that links strategy documents to job-market signals.
 

@@ -1,33 +1,32 @@
 # Resume Bullets
 
-## Current Project Bullet
+## Project summary
 
-- Built Saudi AI Career Intelligence, a retrieval-augmented career analytics system that parses 72 Saudi AI/data job postings and analyzes role categories, sectors, skills, tools, and experience requirements to help CS/AI students make better career preparation decisions.
+- Built Saudi AI Career Intelligence, an AI-powered labor market intelligence system that parses 72 Saudi AI/data job postings, analyzes role categories, sectors, skills, tools, and experience signals, and generates Power BI-ready outputs for portfolio and recruiter review.
 
-## Stronger Technical Version
+## Technical accomplishment
 
-- Developed a Python pipeline using `pypdf` and regex to extract, validate, and structure 72 numbered LinkedIn job postings into CSV, JSON, and raw-text datasets for downstream market analysis and retrieval-augmented generation.
+- Developed a Python pipeline using `pypdf`, structured parsing, and regex cleanup to convert numbered LinkedIn application documents into CSV, JSON, and raw-text datasets for downstream analytics.
 
-## AI/RAG Version
+## Analytics / product version
 
-- Building a LangChain + Chroma + Streamlit RAG system that retrieves from job postings, company information, national AI strategy documents, and personal profile data to recommend skills, projects, and career pathways for Saudi CS/AI students.
+- Generated market intelligence outputs identifying top role categories, sector demand, skills, tools, company signals, and experience breakdowns from a Saudi AI job-market dataset.
 
-## Data/Analytics Version
+## RAG architecture version
 
-- Created a job-market analysis layer identifying top Saudi AI/data role categories, sectors, skills, tools, and experience requirements from a 72-posting dataset, with outputs designed for dashboarding and student career planning.
+- Defined a LangChain + Chroma retrieval architecture for a career recommendation assistant that will index job postings, AI strategy documents, governance reports, and personal profile data.
 
-## Portfolio Version
+## Portfolio version
 
-- Designed an end-to-end AI career intelligence project combining PDF parsing, structured data extraction, market analysis, RAG architecture, and planned Dockerized Streamlit deployment.
+- Designed an end-to-end AI/data product concept combining real job-market signals, dashboard-ready analytics, and a planned retrieval-augmented career assistant.
 
-## Future Completed-State Bullet
+## Future target bullet
 
-- Built and deployed a Dockerized Streamlit RAG app with LangChain and Chroma that answers student career questions using retrieved evidence from Saudi job postings, company profiles, national AI documents, and personal skill profiles.
+- Building a Streamlit career intelligence app with LangChain and Chroma that answers Saudi AI career questions using grounded retrieval from job postings and national strategy documents.
 
-## Interview Talking Points
+## Interview talking points
 
-- I built the project because I personally struggled to understand which AI/data skills mattered most in the Saudi job market.
-- I used my own application history as the first dataset, which made the project grounded in real job-search behavior.
-- The first version focuses on data extraction and market analysis; the next version adds retrieval, citations, and recommendations.
-- The project helps show practical AI engineering ability, not just model training.
-- It connects my strengths in Python, PyTorch, RAG, and AI research with skills I am actively strengthening: LangChain, Docker, SQL, Power BI, and deployment.
+- I built the project to turn messy Saudi AI job postings and strategy reports into structured career intelligence.
+- The first version is focused on real data parsing and market analysis; the next phase is retrieval and user-facing recommendations.
+- This work highlights both AI/data engineering and product thinking for labor market decision support.
+- The project is designed to support students, recruiters, and early-career technologists with actionable portfolio direction.

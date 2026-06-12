@@ -1,81 +1,47 @@
 # Roadmap
 
-## Phase 1 - Data Foundation
+## Phase 1 — Data foundation (completed)
 
-Status: complete
+- Parse and structure 72 LinkedIn job postings.
+- Preserve raw text and processed CSV/JSON assets.
+- Extract role categories, sectors, skills, and tools.
+- Generate market analysis outputs and dashboard-ready CSVs.
+- Document the project design and user story.
 
-- Clean project folder structure.
-- Keep one source PDF for job applications.
-- Parse numbered job postings.
-- Save clean CSV/JSON outputs.
-- Preserve raw text per job posting.
-- Create personal profile YAML.
-- Generate initial market summary files.
+## Phase 2 — Market intelligence (completed)
 
-## Phase 2 - Market Intelligence
+- Build summaries for role category demand.
+- Build sector distribution analysis.
+- Build skills and tools frequency reports.
+- Build company and seniority signal tables.
+- Build location and experience breakdowns.
+- Publish Power BI dashboard guidance.
 
-Status: complete for first dataset
+## Phase 3 — RAG assistant (in progress)
 
-- Generate role category breakdown.
-- Generate sector breakdown.
-- Generate skills/tools frequency.
-- Generate company frequency.
-- Generate experience requirement breakdown.
-- Create project recommendations from market gaps.
-- Add Power BI-ready exports.
-- Write short market-insights report.
-- Add Power BI dashboard design guide.
+- Define the retrieval architecture.
+- Load related documents from job postings and strategy reports.
+- Chunk documents for semantic search.
+- Build the Chroma vector index.
+- Design career question-answer flows.
+- Develop grounded recommendation prompts.
 
-## Phase 3 - Portfolio Projects
+## Phase 4 — Portfolio product polish (planned)
 
-Status: next
+- Refine the Streamlit interface for recruiters and students.
+- Add dashboard visuals and screenshot assets.
+- Add Docker packaging and deployment instructions.
+- Write portfolio-ready README, docs, and talking points.
 
-- Build Saudi AI Job Market Dashboard.
-- Build Fintech RAG Analyst.
-- Upgrade ML Prediction API with Docker.
-- Add screenshots, diagrams, and reproducible setup instructions to GitHub.
+## Phase 5 — Dashboard and delivery (planned)
 
-## Phase 4 - RAG System
+- Deploy the Power BI dashboard in a shareable format.
+- Publish the RAG career assistant prototype.
+- Finalize the project for portfolio review and interviews.
 
-Status: planned
+## Success criteria
 
-- Build document loader for job postings, company info, strategy documents, and personal profile.
-- Chunk documents with LangChain.
-- Store embeddings in Chroma.
-- Create retrieval chains for student career questions.
-- Add grounded answers with citations.
-- Add prompt templates for:
-  - skill gap analysis
-  - project recommendations
-  - role comparison
-  - sector exploration
-  - resume positioning
-
-## Phase 5 - Streamlit Demo
-
-Status: planned
-
-- Build app home screen.
-- Add question-answer interface.
-- Add market dashboard tab.
-- Add student profile comparison tab.
-- Add recommended project roadmap tab.
-- Add source citations.
-
-## Phase 6 - Docker And Release
-
-Status: planned
-
-- Add Dockerfile.
-- Add `.env.example`.
-- Add setup instructions.
-- Add demo screenshots.
-- Polish README.
-- Prepare LinkedIn post.
-
-## Success Criteria
-
-- A recruiter can understand the project in under 60 seconds from the README.
-- A student can use the demo to identify skills and project ideas.
-- The GitHub repo shows Python, RAG, LangChain, Chroma, Streamlit, Docker, and data analysis ability.
-- The project produces clear resume bullets and interview talking points.
+- The repository communicates the project clearly in one visit.
+- The project demonstrates real labor market intelligence abilities.
+- The repo connects data analysis with career recommendation value.
+- The work supports resume bullets for AI/data product and decision-support engineering.

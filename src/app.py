@@ -1,4 +1,4 @@
-"""Streamlit app for the Saudi AI Career Intelligence RAG prototype."""
+"""Streamlit app for the Saudi AI Career Intelligence prototype."""
 
 import streamlit as st
 from dotenv import load_dotenv

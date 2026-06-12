@@ -1,4 +1,4 @@
-"""Document ingestion utilities for the Saudi AI Career RAG pipeline."""
+"""Document ingestion utilities for the Saudi AI Career Intelligence pipeline."""
 
 from pathlib import Path
 

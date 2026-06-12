@@ -1,28 +1,28 @@
 # Power BI Dashboard Guide
 
-## Dashboard Name
+## Dashboard name
 
-Saudi AI Career Intelligence - Market Dashboard
+Saudi AI Career Intelligence Market Dashboard
 
 ## Goal
 
-Help Saudi CS/AI students and fresh graduates understand what the Saudi AI/data job market is asking for, which sectors and roles are most visible, and which projects can close the gap between student profiles and market demand.
+Create a polished, recruiter-ready dashboard that surfaces Saudi AI/data job market signals from the parsed dataset. The dashboard is designed to help students, recruiters, and hiring managers understand role demand, sector patterns, and portfolio gaps.
 
-## Data Source
+## Data source
 
-Load CSV files from:
+Import data from:
 
 ```text
 data/market_analysis/powerbi/
 ```
 
-Recommended files to import:
+Key files:
 
 - `jobs_powerbi.csv`
-- `top_skills_requested.csv`
-- `top_tools_technologies.csv`
 - `role_category_breakdown.csv`
 - `sector_breakdown.csv`
+- `top_skills_requested.csv`
+- `top_tools_technologies.csv`
 - `company_breakdown.csv`
 - `location_distribution.csv`
 - `seniority_breakdown.csv`
@@ -30,133 +30,107 @@ Recommended files to import:
 - `job_location_bridge.csv`
 - `project_recommendations_powerbi.csv`
 
-## Suggested Data Model
+## Data model
 
-Use `jobs_powerbi.csv` as the central fact table.
+Use `jobs_powerbi.csv` as the central fact table. Connect bridge tables by `job_number` for skill/tool and location detail.
 
 Relationships:
 
-- `jobs_powerbi[job_number]` to `job_skill_tool_bridge[job_number]`
-- `jobs_powerbi[job_number]` to `job_location_bridge[job_number]`
+- `jobs_powerbi[job_number]` → `job_skill_tool_bridge[job_number]`
+- `jobs_powerbi[job_number]` → `job_location_bridge[job_number]`
 
-The frequency tables can be used as standalone summary tables for simple visuals.
+Use the frequency tables as supporting summary datasets for clean visuals.
 
-## Page 1 - Market Overview
+## Page 1 — Market overview
 
-Purpose: Give a fast understanding of the 72-posting dataset.
-
-Recommended visuals:
-
-- Card: total jobs analyzed
-- Card: number of role categories
-- Card: number of sectors
-- Bar chart: role category breakdown
-- Donut chart: sector breakdown
-- Table: top companies
-
-Suggested message:
-
-> The current dataset is heavily concentrated in technology roles, with visible demand across Data Science, AI Engineering, Consulting, GenAI / LLM, and Software Engineering.
-
-## Page 2 - Skills And Tools Demand
-
-Purpose: Show what the market repeatedly asks for.
+Purpose: Help viewers absorb the dataset at a glance.
 
 Recommended visuals:
 
-- Bar chart: top skills requested
-- Bar chart: top tools/technologies
-- Matrix: skill/tool by role category using `job_skill_tool_bridge`
-- Slicer: role category
-- Slicer: sector
+- Total jobs card
+- Role category breakdown bar chart
+- Sector distribution donut chart
+- Company frequency table
+- Data quality callout for location / seniority coverage
 
-Important signals from the first dataset:
+Message:
 
-- AI and Machine Learning dominate the skills side.
-- PyTorch, TensorFlow, Docker, SQL, Azure, AWS, MLOps, RAG, and Kubernetes are strong tool/technology signals.
-- Docker, SQL, Power BI, LangChain, and deployment are good portfolio gap areas.
+> This dataset currently covers 72 Saudi AI/data job postings, with strong signals in Data Science, AI Engineering, Consulting, GenAI/LLM, and Software Engineering.
 
-## Page 3 - Roles, Sectors, And Companies
+## Page 2 — Skills and tools demand
 
-Purpose: Help students understand where demand appears.
+Purpose: Show the capabilities employers ask for most often.
 
 Recommended visuals:
 
-- Bar chart: role category breakdown
-- Bar chart: sector breakdown
-- Table: company breakdown
-- Stacked bar: role category by sector
+- Top skills bar chart
+- Top tools/technologies bar chart
+- Role category × skill/tool matrix
+- Sector filter
 
-Suggested interpretation:
+Insights:
 
-> For this student's target market, technology is the dominant sector, with fintech and consulting as smaller but strategically valuable focus areas.
+- AI and Machine Learning are the strongest skill signals.
+- Deployment and cloud tooling are visible gaps worth highlighting.
+- Key technology signals include PyTorch, TensorFlow, Docker, SQL, Azure, AWS, LangChain, and MLOps.
 
-## Page 4 - Location And Seniority
+## Page 3 — Roles, sectors, and companies
 
-Purpose: Clarify where roles are based and how accessible they are for fresh graduates.
-
-Recommended visuals:
-
-- Bar chart: location distribution
-- Bar chart: seniority breakdown
-- Table: jobs with `Not specified` location
-- Slicer: seniority level
-
-Suggested interpretation:
-
-> Many postings do not specify location clearly, but Saudi Arabia and Riyadh are visible. Seniority is mixed, so fresh graduates need projects that reduce perceived experience risk.
-
-## Page 5 - Project Recommendations
-
-Purpose: Translate market demand into portfolio actions.
+Purpose: Show where demand lives in the Saudi market.
 
 Recommended visuals:
 
-- Table: project recommendations
-- Matrix: project vs skills/tools to show
-- Card: highest priority project
+- Role category breakdown
+- Sector breakdown
+- Top company frequency
+- Role category by sector stacked bar
 
-Recommended project sequence:
+Interpretation:
+
+> The current dataset is weighted toward technology roles, with fintech and consulting appearing as valuable adjacent opportunities.
+
+## Page 4 — Location and seniority
+
+Purpose: Clarify geographic and experience signals.
+
+Recommended visuals:
+
+- Location distribution chart
+- Seniority breakdown chart
+- Table for jobs missing explicit location
+- Experience-level slicer
+
+Insight:
+
+> Many postings lack explicit location metadata. Where location is specified, Saudi Arabia and Riyadh are strong signals.
+
+## Page 5 — Project recommendations
+
+Purpose: Turn market analysis into practical portfolio actions.
+
+Recommended visuals:
+
+- Project recommendation table
+- Skill/tool coverage matrix for proposed projects
+- Project priority card
+
+Recommended sequence:
 
 1. Saudi AI Job Market Dashboard
 2. Fintech RAG Analyst
 3. ML Prediction API with Docker
 
-Suggested interpretation:
+## Design guidance
 
-> The portfolio should prove market awareness, AI engineering ability, and deployment readiness. The strongest immediate project is the dashboard itself, followed by a RAG app and Dockerized ML API.
+- Keep visuals clean and professional.
+- Use neutral backgrounds with dark accent colors.
+- Prefer bar charts for rankings and breakdowns.
+- Use slicers for role category, sector, and seniority.
+- Keep narrative labels concise and actionable.
 
-## Dashboard Design Style
+## Refresh workflow
 
-Use a clean professional style:
-
-- background: white or very light gray
-- accent color: deep green or blue
-- charts: horizontal bars for rankings
-- avoid decorative visuals
-- keep page titles direct and readable
-- use slicers for category, sector, and seniority
-
-## Suggested Measures
-
-Create these simple DAX measures:
-
-```DAX
-Total Jobs = COUNTROWS(jobs_powerbi)
-
-Jobs With Location =
-CALCULATE(COUNTROWS(jobs_powerbi), jobs_powerbi[has_location] = TRUE())
-
-Jobs With Salary =
-CALCULATE(COUNTROWS(jobs_powerbi), jobs_powerbi[has_salary] = TRUE())
-
-Average Skills Per Job =
-AVERAGE(jobs_powerbi[skills_tools_count])
-```
-
-## Refresh Workflow
-
-1. Add new job postings PDF.
+1. Add new job postings to `data/job_postings/raw_text` or source PDFs.
 2. Run:
 
 ```bash

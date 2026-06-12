@@ -1,4 +1,4 @@
-"""Download recommended official documents for the Saudi AI Career RAG dataset.
+"""Download recommended official documents for the Saudi AI Career Intelligence dataset.
 
 Run from the project root:
     python scripts/download_recommended_documents.py
@@ -161,7 +161,7 @@ def download_file(url: str, destination: Path) -> None:
     """Download a URL to a destination path."""
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Saudi-AI-Career-RAG/1.0"},
+        headers={"User-Agent": "Saudi-AI-Career-Intelligence/1.0"},
     )
     with urllib.request.urlopen(request, timeout=90) as response:
         with destination.open("wb") as output_file:
