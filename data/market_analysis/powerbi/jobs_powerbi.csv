@@ -1,0 +1,73 @@
+job_number,raw_title,company,role_title,category,sector,location,seniority_level,experience_required,salary_if_available,skills_tools_count,has_salary,has_location
+1,Associate Consultant - SAP,Associate Consultant - SAP,Associate Consultant - SAP,Consulting,Consulting,Saudi Arabia,Entry / Fresh Graduate,Fresh graduate,,1,False,True
+2,Associate Consultant Bain & Company,Bain & Company,Associate Consultant,Consulting,Consulting,Montreal; United States,Entry / Fresh Graduate,Entry level,"$112,000",3,True,True
+3,SiFi AI Engineer,SiFi,AI Engineer,Software Engineering,Technology,Not specified,Not specified,,,5,False,False
+4,Al Watania Information Systems (Wisys) AI Developer,Al Watania Information Systems (Wisys),AI Developer,GenAI / LLM,Technology,Not specified,Mid Level,3 years' experience,,11,False,False
+5,Confidential,Confidential,AI Agent Engineer,GenAI / LLM,Technology,Not specified,Senior,5 years of experience,,8,False,False
+6,Cognizant Software Engineer,Cognizant,Software Engineer,Software Engineering,Technology,Not specified,Not specified,,,1,False,False
+7,TestCrew | Quality Engineering & Software Testing Artificial Intelligence Engineer,TestCrew | Quality Engineering & Software Testing,Artificial Intelligence Engineer,GenAI / LLM,Technology,Not specified,Not specified,,,7,False,False
+8,aramco digital Pre-Sales Engineer,aramco digital,Pre-Sales Engineer,Consulting,Technology,Not specified,Entry / Fresh Graduate,0+ years of experience,,0,False,False
+9,Jobgether AI Research Engineer - Reinforcement Learning,Jobgether,AI Research Engineer - Reinforcement Learning,Data Science,Technology,Remote; Saudi Arabia,Not specified,,,5,False,True
+10,Al Watania Information Systems (Wisys). Associate Consultant - SAP,Al Watania Information Systems (Wisys).,Associate Consultant - SAP,Consulting,Consulting,Saudi Arabia,Entry / Fresh Graduate,Fresh graduate,,1,False,True
+11,Knight Frank MENA Saudi Graduate Programme,Knight Frank MENA Saudi,Graduate Programme,Consulting,Technology,Saudi Arabia,Internship,Internship,,1,False,True
+12,Tata Consultancy Services Gen AI Engineer,Tata Consultancy Services,Gen AI Engineer,GenAI / LLM,Technology,Dhahran; Hybrid; Saudi Arabia,Not specified,,,9,False,True
+13,Infinite pl 2026 KSA Analyst Program - Data & AI Analyst,Infinite pl 2026 KSA Analyst Program - Data & AI Analyst,process,Data Science,Technology,Saudi Arabia,Not specified,,,8,False,True
+14,HALA AI Engineer (All Levels),HALA,AI Engineer,Fintech,Technology,Hybrid; Remote; Saudi Arabia,Senior,5 years of experience,,13,False,True
+15,RER | اﻟﺳﺟل اﻟﻌﻘﺎري SAED GDP,RER | اﻟﺳﺟل اﻟﻌﻘﺎري SAED GDP,RER | اﻟﺳﺟل اﻟﻌﻘﺎري SAED GDP,GDP,Real Estate,Not specified,Entry / Fresh Graduate,Fresh Graduate,,0,False,False
+16,Tata Consultancy Services Gen AI Data Scientist,Tata Consultancy Services Gen AI,Data Scientist,Data Science,Technology,Dhahran; Saudi Arabia,Not specified,,,9,False,True
+17,Sanad Connect Artificial Intelligence Solutions Consultant,Sanad Connect Artificial Intelligence Solutions,Consultant,Consulting,Consulting,Jeddah,Senior,Senior,,1,False,True
+18,Sanad Connect Artificial Intelligence Engineer,Sanad Connect,Artificial Intelligence Engineer,Data Science,Technology,Jeddah; Saudi Arabia,Not specified,,,6,False,True
+19,Hire Feed Software Engineer,Hire Feed,Software Engineer,Software Engineering,Technology,Not specified,Not specified,,,4,False,False
+20,SAB Invest Alawael Graduate Development Program 2026,SAB Invest Alawael Graduate Development Program 2026,SAB Invest Alawael Graduate Development Program 2026,Consulting,Fintech,Not specified,Mid Level,Mid level,,0,False,False
+21,Master Works Machine Learning & AI Engineer - Immediate Hiring,Master Works Machine Learning &,AI Engineer,AI Engineering,Technology,Saudi Arabia,Mid Level,4+ years of experience,,7,False,True
+22,UMATR Lead AI Engineer (Saudi National's),UMATR Lead,AI Engineer,AI Engineering,Technology,Not specified,Senior,Senior,,8,False,False
+23,Ninja 󰵈 ﻧﯾﻧﺟﺎ Business Intelligence Analyst,Ninja 󰵈 ﻧﯾﻧﺟﺎ,Business Intelligence Analyst,Business Intelligence,Technology,Not specified,Junior / Early Career,2+ years of experience,,7,False,False
+24,Ebra | إﺑراء QA Engineer,Ebra | إﺑراء QA Engineer,QA Engineer,Software Engineering,Technology,Not specified,Not specified,,,1,False,False
+25,"Master Works SDE-1 Computer Vision, Engineer","Master Works SDE-1 Computer Vision, Engineer",SDE-1 (Computer Vision Engineer) professional,Computer Vision,Technology,Not specified,Not specified,,,11,False,False
+26,UMATR Applied AI/ML Engineer - Gaming (Saudi National's),UMATR Applied AI/,ML Engineer,AI Engineering,Technology,Not specified,Not specified,,,16,False,False
+27,Tata Consultancy Services Gen AI Engineer,Tata Consultancy Services,Gen AI Engineer,GenAI / LLM,Technology,Dhahran; Hybrid; Saudi Arabia,Not specified,,,9,False,True
+28,Tata Consultancy Services Data Scientist – Computer Vision Engineer,Tata Consultancy Services,Data Scientist,Data Science,Technology,Dhahran; Saudi Arabia,Not specified,,,6,False,True
+29,Whiteshield Whiteshield Data Scientist - AI Economics Unit,Whiteshield Whiteshield,Data Scientist,Data Science,Government,Not specified,Senior,Senior,,3,False,False
+30,Strategic Gears Analyst,Strategic Gears Analyst,Strategic Gears Analyst,Consulting,Fintech,Not specified,Not specified,,,0,False,False
+31,Confidential Government AI & Machine Learning Engineer,Confidential Government AI &,Machine Learning Engineer,AI Engineering,Technology,Not specified,Not specified,,,7,False,False
+32,SALIC Risk Trainee (GDP),SALIC Risk Trainee (GDP),SALIC Risk Trainee (GDP),GDP,Fintech,Not specified,Not specified,,,0,False,False
+33,Müller's Solutions AI / Computer Vision ENGINEER,Müller's Solutions AI /,Computer Vision ENGINEER,Computer Vision,Technology,Not specified,Not specified,,,4,False,False
+34,Huxley GenAI Specialist,Huxley GenAI Specialist,Huxley GenAI Specialist,GenAI / LLM,Technology,Dhahran; Saudi Arabia,Mid Level,Mid level,,9,False,True
+35,Confidential Government Data Collection & Quality Management Analyst,Confidential Government Data Collection & Quality Management Analyst,Confidential Government Data Collection & Quality Management Analyst,Business Intelligence,Technology,Not specified,Junior / Early Career,2 - 4 years of experience,,5,False,False
+36,TestCrew | Quality Engineering & Software Testing Data Scientist – Generative AI & NLP,TestCrew | Quality Engineering & Software Testing,Data Scientist,Data Science,Technology,Not specified,Not specified,,,16,False,False
+37,Tangent International 🚀 AI & Data Architect - LLM + Big Data (Digital Transformation),Tangent International 🚀 AI & Data Architect - LLM + Big Data (Digital Transformation),Tangent International 🚀 AI & Data Architect - LLM + Big Data (Digital Transformation),Fintech,Technology,Riyadh; Saudi Arabia,Senior,Senior,,1,False,True
+38,Al-Qadsiah Saudi Club ﻧﺎدي اﻟﻘﺎدﺳﯾﺔ اﻟﺳﻌودي Application Developer & Designer,Al-Qadsiah Saudi Club ﻧﺎدي اﻟﻘﺎدﺳﯾﺔ اﻟﺳﻌودي Application Developer & Designer,Al-Qadsiah Saudi Club ﻧﺎدي اﻟﻘﺎدﺳﯾﺔ اﻟﺳﻌودي Application Developer & Designer,Software Engineering,Technology,Not specified,Senior,Senior,,1,False,False
+39,Müller's Solutions Data Engineer,Müller's Solutions,Data Engineer,Technology,Technology,Not specified,Not specified,,,4,False,False
+40,NXS Tech Ltd AI Engineer,NXS Tech Ltd,AI Engineer,GenAI / LLM,Technology,Riyadh,Not specified,,,3,False,True
+41,Abyan Capital Software Engineer,Abyan Capital,Software Engineer,Software Engineering,Technology,Not specified,Not specified,,,0,False,False
+42,Lucidya | ﻟوﺳﯾدﯾﺎ AI Engineer (Saudi Only),Lucidya | ﻟوﺳﯾدﯾﺎ,AI Engineer,AI Engineering,Technology,Not specified,Entry / Fresh Graduate,Entry level,,11,False,False
+43,Master Works LLM Engineers,Master Works LLM Engineers,highly skilled LLM Engineer,GenAI / LLM,Technology,Hybrid,Not specified,,,10,False,True
+44,TAWANTECH Junior Software Developer (Banking Systems),TAWANTECH Junior,Software Developer,Fintech,Technology,Not specified,Entry / Fresh Graduate,fresh graduate,,1,False,False
+45,Confidential Government Business Analyst (AI & Data Projects),Confidential Government,Business Analyst,Data Science,Technology,Not specified,Entry / Fresh Graduate,fresh graduate,,4,False,False
+46,Master Works Data Scienist,Master Works Data Scienist,Master Works Data Scienist,Data Science,Technology,Not specified,Not specified,,,2,False,False
+47,Müller's Solutions Data Scientist,Müller's Solutions,Data Scientist,Data Science,Technology,Not specified,Entry / Fresh Graduate,Entry level,,7,False,False
+48,Klanik AI Engineer,Klanik,AI Engineer,AI Engineering,Technology,Dammam; Saudi Arabia,Senior,Senior,,11,False,True
+49,UMATR Applied AI/ML Engineer - Gaming (Saudi National's),UMATR Applied AI/,ML Engineer,AI Engineering,Technology,Not specified,Not specified,,,16,False,False
+50,Lucidya | ﻟوﺳﯾدﯾﺎ AI Engineer,Lucidya | ﻟوﺳﯾدﯾﺎ,AI Engineer,AI Engineering,Technology,Not specified,Not specified,,,6,False,False
+51,Multimedia AI Expert / AI Solutions Engineer,Multimedia AI Expert / AI Solutions Engineer,innovative AI Expert / AI Solutions Engineer,Data Science,Technology,Not specified,Not specified,,,9,False,False
+52,Tamara Backend Engineer,Tamara,Backend Engineer,Fintech,Fintech,Riyadh; Saudi Arabia,Not specified,,,3,False,True
+53,HungerStation | ھﻧﻘرﺳﺗﯾﺷن Software Engineer II - Backend (Saudi Nationals Only),HungerStation | ھﻧﻘرﺳﺗﯾﺷن,Software Engineer,Software Engineering,Technology,Riyadh,Junior / Early Career,2- 4 years of experience,,1,False,True
+54,Systems Arabia Software Engineer,Systems Arabia,Software Engineer,Software Engineering,Technology,Not specified,Not specified,,,1,False,False
+55,Confidential Data Scientist,Confidential,Data Scientist,Data Science,Technology,Not specified,Senior,6 years of experience,,6,False,False
+56,HungerStation | ھﻧﻘرﺳﺗﯾﺷن Data Engineer,HungerStation | ھﻧﻘرﺳﺗﯾﺷن,Data Engineer,Data Science,Technology,Not specified,Not specified,,,5,False,False
+57,Tata Consultancy Services Data Scientist – Machine Learning,Tata Consultancy Services,Data Scientist,Data Science,Technology,Dhahran; Saudi Arabia,Not specified,,,9,False,True
+58,Tata Consultancy Services Gen AI Engineer,Tata Consultancy Services,Gen AI Engineer,GenAI / LLM,Technology,Dhahran; Hybrid; Saudi Arabia,Not specified,,,9,False,True
+59,Tata Consultancy Services Data Scientist – Computer Vision Engineer,Tata Consultancy Services,Data Scientist,Data Science,Technology,Dhahran; Saudi Arabia,Not specified,,,6,False,True
+60,Diyar United Company Software Developer- KSA,Diyar United Company,Software Developer,Technology,Technology,Saudi Arabia,Mid Level,4 years of experience,,0,False,True
+61,aramco digital Corporate Strategy Analyst,aramco digital Corporate Strategy Analyst,aramco digital Corporate Strategy Analyst,Fintech,Fintech,Not specified,Entry / Fresh Graduate,0+ years of experience,,2,False,False
+62,MIDWAM AI & Computer Vision Developer (Creative AI Integration),MIDWAM AI & Computer Vision Developer (Creative AI Integration),innovative AI & Computer Vision Developer,Computer Vision,Gaming,Jeddah; On-site; Saudi Arabia,Not specified,,,5,False,True
+63,Klanik AI Engineer,Klanik,AI Engineer,AI Engineering,Technology,Dammam; Saudi Arabia,Senior,Senior,,11,False,True
+64,Lucidya | ﻟوﺳﯾدﯾﺎ AI Engineer (Saudi Only),Lucidya | ﻟوﺳﯾدﯾﺎ,AI Engineer,AI Engineering,Technology,Not specified,Not specified,,,6,False,False
+65,Confidential Government Data Scientist,Confidential Government,Data Scientist,Data Science,Technology,Not specified,Mid Level,3 years of experience,,4,False,False
+66,Keeta Data Analyst,Keeta,Data Analyst,Consulting,Technology,Saudi Arabia,Entry / Fresh Graduate,entry level,,2,False,True
+67,TAWANTECH Artificial Intelligence (AI) Engineer,TAWANTECH Artificial Intelligence (AI) Engineer,AI Engineer,Data Science,Technology,Not specified,Senior,5-7 years of experience,,12,False,False
+68,Confidential Government Researcher,Confidential Government Researcher,Confidential Government Researcher,Data Science,Technology,Remote,Not specified,,,2,False,True
+69,NSG Geospatial Services Artificial Intelligence Engineer,NSG Geospatial Services,Artificial Intelligence Engineer,AI Engineering,Technology,Not specified,Not specified,,,11,False,False
+70,NOVOTAK Softwarev Engineer,NOVOTAK Softwarev Engineer,NOVOTAK Softwarev Engineer,Technology,Technology,Not specified,Not specified,,,1,False,False
+71,DATA Artificial Intelligence Programmer,DATA Artificial Intelligence Programmer,DATA Artificial Intelligence Programmer,Data Science,Technology,On-site; Riyadh,Not specified,,,4,False,True
+72,Exotech Co (AI) Artificial Intelligence Consultant,Exotech Co (AI) Artificial Intelligence,Consultant,Consulting,Technology,On-site; Riyadh; Saudi Arabia,Senior,5+ years of experience,,8,False,True

@@ -1,0 +1,28 @@
+tool,count
+RAG,4
+LLMs,4
+Python,4
+OpenAI,4
+SAP,3
+PyTorch,3
+Docker,3
+SQL,3
+LangChain,3
+TensorFlow,2
+Claude,2
+Pandas,2
+NumPy,2
+MLflow,2
+Triton,2
+AWS,2
+Azure,2
+Groq,1
+ONNX,1
+TorchServe,1
+Kubernetes,1
+FastAPI,1
+MLOps,1
+Computer Vision,1
+Weights & Biases,1
+Power BI,1
+Tableau,1

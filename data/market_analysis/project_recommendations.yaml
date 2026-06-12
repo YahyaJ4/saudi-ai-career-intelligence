@@ -1,0 +1,102 @@
+project_recommendations:
+  - title: Fintech RAG Analyst
+    priority: high
+    target_roles:
+      - AI Engineer
+      - GenAI Engineer
+      - Applied AI Engineer
+      - Fintech AI Analyst
+    why_it_matters:
+      - Matches current strengths in Python, PyTorch, and RAG.
+      - Builds missing evidence for LangChain, Docker, SQL, and deployment.
+      - Connects directly to Saudi fintech and consulting use cases.
+    core_features:
+      - ingest financial reports, fintech documents, or policy PDFs
+      - chunk and embed documents
+      - retrieve relevant context with source citations
+      - answer questions through a Streamlit interface
+      - store document metadata in SQLite or Chroma metadata
+      - Dockerized local run
+    evidence_to_show_on_github:
+      - architecture diagram
+      - screenshots
+      - sample questions and answers
+      - retrieval evaluation examples
+      - Docker run instructions
+    skills_demonstrated:
+      - Python
+      - LangChain
+      - RAG
+      - Chroma
+      - Docker
+      - Streamlit
+      - prompt design
+      - evaluation
+
+  - title: Saudi AI Job Market Dashboard
+    priority: high
+    target_roles:
+      - Data Scientist
+      - Data Analyst
+      - Data Engineer
+      - AI Consultant
+    why_it_matters:
+      - Uses the student's real 72-job dataset.
+      - Turns job search activity into market intelligence.
+      - Builds evidence for Power BI, SQL, data cleaning, and communication.
+    core_features:
+      - role category breakdown
+      - sector breakdown
+      - skills/tools frequency
+      - experience requirements
+      - company frequency
+      - student readiness narrative
+    evidence_to_show_on_github:
+      - Power BI dashboard screenshots
+      - clean CSV outputs
+      - SQL query examples
+      - short written insights
+    skills_demonstrated:
+      - Power BI
+      - SQL
+      - data cleaning
+      - analytics storytelling
+      - market research
+
+  - title: ML Prediction API with Docker
+    priority: medium
+    target_roles:
+      - Data Scientist
+      - Machine Learning Engineer
+      - AI Engineer
+    why_it_matters:
+      - Upgrades an existing academic ML project into a production-style artifact.
+      - Shows a complete path from data to model to API.
+    core_features:
+      - data preprocessing pipeline
+      - model training script
+      - evaluation report
+      - FastAPI prediction endpoint
+      - Dockerized service
+      - model card with limitations
+    evidence_to_show_on_github:
+      - reproducible training command
+      - API usage examples
+      - evaluation metrics
+      - model card
+    skills_demonstrated:
+      - Python
+      - Scikit-learn or PyTorch
+      - FastAPI
+      - Docker
+      - model evaluation
+      - MLOps basics
+
+portfolio_order:
+  recommended_sequence:
+    - Saudi AI Job Market Dashboard
+    - Fintech RAG Analyst
+    - ML Prediction API with Docker
+  reason: >
+    Start with the dataset already available, then build the RAG system that becomes
+    the core project demo, then polish an ML deployment project for breadth.

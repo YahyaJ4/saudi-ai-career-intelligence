@@ -1,0 +1,11 @@
+skill_or_tool,market_signal,current_status,priority,recommended_evidence_to_build
+Python,Core language across AI/data roles,Known strength,Maintain,"Use in every project; keep code clean and documented"
+PyTorch,Appears frequently in AI/ML postings,Known strength,Maintain,"Show model training or evaluation pipeline in a repo"
+RAG,Appears in GenAI/LLM postings,Known strength,High,"Build Fintech RAG Analyst with citations and evaluation"
+SQL,Appears frequently across data and AI roles,Some experience,High,"Add SQL queries and schema design to market dashboard project"
+Docker,Appears frequently and supports deployment readiness,Wants to strengthen,High,"Dockerize Streamlit RAG app and ML API"
+LangChain,Important for RAG/agentic AI portfolios,Wants to strengthen,High,"Use LangChain loaders, splitters, retrievers, and chains in RAG app"
+Power BI,Appears in analytics/BI postings,Wants to strengthen,Medium,"Build Saudi AI Job Market Dashboard screenshots and publish PBIX or exports"
+AWS/Azure,Cloud appears frequently in postings,Not yet strongly evidenced,Medium,"Deploy or document cloud-ready architecture for one project"
+MLOps,Appears in AI/ML engineering postings,Partial evidence through evaluation pipelines,Medium,"Add reproducible training, model card, and evaluation reports"
+FastAPI,Useful for ML/AI engineering deployment,Not yet strongly evidenced,Medium,"Expose ML prediction project through a FastAPI endpoint"

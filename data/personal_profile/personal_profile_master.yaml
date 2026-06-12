@@ -1,0 +1,408 @@
+identity:
+  full_name: Yahya Al Malallah
+  location:
+    country: Saudi Arabia
+  contact:
+    phone: "+966 567787901"
+    email: yahyamalallah22@gmail.com
+    linkedin: LinkedIn
+  professional_summary:
+    - Computer Science graduate specialized in AI systems and applied machine learning.
+    - Experience building scalable pipelines and data-driven solutions with real-world impact.
+  languages:
+    - language: Arabic
+      evidence: Native language listed on CV.
+    - language: English
+      evidence: Fluent language listed on CV; completed B.S. in the United States.
+
+education:
+  graduate:
+    degree: M.S. Computer Science
+    institution: King Abdullah University of Science & Technology
+    short_name: KAUST
+    location: Thuwal, Saudi Arabia
+    expected_completion: Dec 2025
+    evidence:
+      - CV education section.
+      - Graduate research role at KAUST AI Initiative.
+  undergraduate:
+    degree: B.S. Computer Science
+    institution: University of Arizona
+    short_name: UofA
+    location: Tucson, Arizona, USA
+    completion: May 2024
+    honors:
+      - Magna Cum Laude
+      - Dean's List, multiple terms
+      - KGSP Scholarship Recipient, 2019-2024
+    evidence:
+      - CV education section.
+
+high_school:
+  status: not_provided_in_current_sources
+  notes:
+    - High school details were not present in the provided CV or parsed project data.
+    - Add school name, graduation year, honors, and activities when available.
+
+research:
+  current_focus:
+    title: HyperNetwork Video Compression
+    organization: KAUST AI Initiative
+    institution: KAUST
+    location: Thuwal, Saudi Arabia
+    period: Jun 2025 - Dec 2025
+    themes:
+      - transformer-based HyperNetworks
+      - implicit neural representation compression
+      - compact video representations
+      - PSNR/SSIM evaluation
+      - 2D/3D Gaussian Splatting
+      - INR-to-LLM embeddings
+      - scalable video understanding
+    evidence:
+      - Designed a transformer-based HyperNetwork for compact video representations.
+      - Built a PyTorch/CUDA pipeline on IBEX for data preparation and PSNR/SSIM evaluation.
+      - Investigating Gaussian Splatting and INR-to-LLM embeddings.
+  related_research_projects:
+    - title: Steerability-Robustness Tradeoff in Language Models via DPO
+      period: Oct 2025 - Dec 2025
+      methods:
+        - large language model training
+        - DPO
+        - safety and robustness evaluation
+        - PyTorch
+      evidence:
+        - Built scalable training and evaluation pipeline for language models.
+        - Found safety improvements can preserve general performance, while over-tuning can degrade complex behavior.
+
+projects:
+  - title: End-to-End Retrieval-Augmented Generation Pipeline
+    period: Oct 2025 - Nov 2025
+    type: AI engineering project
+    evidence:
+      - Built an end-to-end RAG system with embedding, retrieval, and response validation.
+      - Targeted answer-quality improvement over large document collections.
+    skills_tools:
+      - RAG
+      - embeddings
+      - retrieval
+      - response validation
+      - document pipelines
+  - title: Statistical & Machine Learning Pipeline for Diabetes Prediction
+    period: Mar 2025 - May 2025
+    type: machine learning project
+    evidence:
+      - Developed a full ML pipeline for diabetes prediction.
+      - Included data cleaning, feature selection, model training, and performance evaluation.
+    skills_tools:
+      - data cleaning
+      - feature selection
+      - model training
+      - evaluation
+      - applied machine learning
+  - title: Community Hub for Smart Mobility
+    period: Jul 2022 - Aug 2022
+    organization: Urban Information Lab, University of Texas at Austin
+    type: software engineering internship project
+    evidence:
+      - Developed a full-stack web application supporting transportation access for low-income families.
+    impact_domain:
+      - smart mobility
+      - transportation access
+      - civic technology
+
+work_experience:
+  - role: Graduate Researcher
+    organization: KAUST AI Initiative
+    institution: KAUST
+    location: Thuwal, Saudi Arabia
+    period: Jun 2025 - Dec 2025
+    evidence:
+      - Designed transformer-based HyperNetwork for INR video compression.
+      - Built PyTorch/CUDA pipeline on IBEX.
+      - Automated data preparation and PSNR/SSIM evaluation.
+    domains:
+      - AI research
+      - video compression
+      - high-performance computing
+      - representation learning
+  - role: Software Engineering Intern
+    organization: Urban Information Lab
+    institution: University of Texas at Austin
+    location: Austin, Texas, USA
+    period: Jul 2022 - Aug 2022
+    evidence:
+      - Developed a full-stack web application for the Community Hub for Smart Mobility.
+      - Project supported transportation access for low-income families.
+    domains:
+      - full-stack software engineering
+      - civic technology
+      - transportation technology
+
+teaching:
+  - role: Senior Tutor, Mathematics & Computer Science
+    certification_context: CRLA Level 3
+    institution: University of Arizona
+    location: Arizona, USA
+    period: Feb 2022 - May 2024
+    evidence:
+      - Delivered one-on-one and group tutoring in mathematics and computer science.
+      - Adapted teaching style for diverse learning styles.
+    teaching_areas:
+      - mathematics
+      - computer science
+      - academic support
+
+skills:
+  programming_and_ml:
+    - skill: Python
+      evidence:
+        - Listed on CV.
+        - Used across ML, RAG, PyTorch/CUDA, and data pipeline projects.
+    - skill: PyTorch
+      evidence:
+        - Used in language model training/evaluation pipeline.
+        - Used in KAUST HyperNetwork research pipeline.
+    - skill: TensorFlow
+      evidence:
+        - Listed on CV.
+    - skill: Scikit-learn
+      evidence:
+        - Listed on CV.
+        - Aligned with diabetes prediction ML pipeline.
+    - skill: Machine Learning
+      evidence:
+        - Diabetes prediction pipeline.
+        - Applied ML specialization in professional summary.
+    - skill: Deep Learning
+      evidence:
+        - Listed on CV.
+        - HyperNetwork and language model projects.
+    - skill: Agentic AI
+      evidence:
+        - Listed on CV.
+        - Application history targets AI agent and GenAI roles.
+  data_and_evaluation:
+    - skill: Data Analytics
+      evidence:
+        - Listed on CV.
+        - Used in ML pipeline and model evaluation workflows.
+    - skill: Feature Selection
+      evidence:
+        - Diabetes prediction project.
+    - skill: Model Evaluation
+      evidence:
+        - Diabetes prediction project.
+        - PSNR/SSIM video compression evaluation.
+        - LLM training and safety/performance evaluation.
+    - skill: NumPy
+      evidence:
+        - Listed on CV.
+    - skill: Matplotlib
+      evidence:
+        - Listed on CV.
+  systems_and_infrastructure:
+    - skill: Linux
+      evidence:
+        - Listed on CV.
+    - skill: Git
+      evidence:
+        - Listed on CV.
+    - skill: SLURM
+      evidence:
+        - Listed on CV.
+        - Relevant to IBEX/HPC work.
+    - skill: CUDA
+      evidence:
+        - Listed on CV.
+        - Used in KAUST PyTorch/CUDA research pipeline.
+    - skill: HPC / IBEX
+      evidence:
+        - Listed on CV.
+        - Used in KAUST research pipeline.
+  ai_systems:
+    - skill: Retrieval-Augmented Generation
+      evidence:
+        - Built end-to-end RAG pipeline with embedding, retrieval, and response validation.
+    - skill: Large Language Model Training and Evaluation
+      evidence:
+        - Built scalable DPO training and evaluation pipeline for language models.
+    - skill: Video Understanding / Compression Research
+      evidence:
+        - HyperNetwork video compression and INR-to-LLM embedding research.
+    - skill: Full-Stack Web Development
+      evidence:
+        - Built Community Hub for Smart Mobility web application during internship.
+
+certifications:
+  - name: College Reading and Learning Association Level 3
+    short_name: CRLA Level 3
+    level: highest level
+    date: Jan 2024
+    evidence:
+      - Listed in CV certificates section.
+      - Supports senior tutoring experience.
+
+awards:
+  - name: Magna Cum Laude
+    issuer: University of Arizona
+    evidence:
+      - Listed under B.S. Computer Science education.
+  - name: Dean's List
+    issuer: University of Arizona
+    frequency: multiple terms
+    evidence:
+      - Listed under B.S. Computer Science education.
+  - name: KGSP Scholarship Recipient
+    period: 2019-2024
+    evidence:
+      - Listed under B.S. Computer Science education.
+
+leadership:
+  - role: Senior Tutor
+    institution: University of Arizona
+    period: Feb 2022 - May 2024
+    evidence:
+      - Senior tutor title.
+      - Delivered one-on-one and group tutoring across mathematics and computer science.
+      - Adapted instruction for diverse learning styles.
+  - role: Graduate Research Project Owner
+    institution: KAUST AI Initiative
+    period: Jun 2025 - Dec 2025
+    evidence:
+      - Designed and built research pipelines for HyperNetwork video compression.
+      - Automated evaluation workflows on IBEX.
+
+job_preferences:
+  inferred_from_application_history:
+    total_applications_in_dataset: 72
+    strongest_role_patterns:
+      - Data Science
+      - AI Engineering
+      - Consulting
+      - GenAI / LLM
+      - Software Engineering
+    preferred_role_examples:
+      - AI Engineer
+      - AI Developer
+      - AI Agent Engineer
+      - Data Scientist
+      - Machine Learning Engineer
+      - GenAI Engineer
+      - AI Research Engineer
+      - Software Engineer
+      - Consultant / AI Solutions Consultant
+    preferred_locations:
+      - Saudi Arabia
+      - Riyadh
+      - remote or hybrid roles when available
+    evidence:
+      - Parsed LinkedIn application history in data/job_postings/processed/job_postings.csv.
+      - Top categories by count: Data Science, AI Engineering, Consulting, GenAI / LLM, Software Engineering.
+
+salary_preferences:
+  status: not_explicitly_provided
+  evidence:
+    - CV does not state salary expectations.
+    - Application history includes a mix of graduate programs, AI roles, consulting roles, and software roles.
+  suggested_profile_use:
+    - Keep salary flexible unless a job application requires a number.
+    - Anchor negotiation around AI engineering, data science, and KAUST graduate research experience.
+
+sector_interests:
+  inferred_from_application_history:
+    dominant_sectors:
+      - sector: Technology
+        application_count: 60
+      - sector: Fintech
+        application_count: 5
+      - sector: Consulting
+        application_count: 4
+      - sector: Gaming
+        application_count: 1
+      - sector: Government
+        application_count: 1
+      - sector: Real Estate
+        application_count: 1
+    target_domains:
+      - AI systems
+      - GenAI and LLM applications
+      - data science
+      - computer vision and video understanding
+      - fintech AI
+      - consulting and AI transformation
+      - government and Vision 2030-aligned AI
+
+career_goals:
+  near_term:
+    - Secure an AI engineering, data science, GenAI, or applied ML role in Saudi Arabia or a globally relevant technology environment.
+    - Translate KAUST research experience into production-oriented AI systems work.
+    - Build stronger portfolio evidence around RAG, LLM evaluation, agentic AI, and computer vision/video understanding.
+  medium_term:
+    - Become a high-impact AI systems engineer or applied AI researcher working on scalable, real-world AI products.
+    - Combine research depth with engineering execution across ML infrastructure, evaluation, and deployment.
+  long_term:
+    - Contribute to Saudi Arabia's AI ecosystem through applied AI, national-scale technology programs, and advanced research-to-product translation.
+
+application_history:
+  source_file: data/job_postings/processed/job_postings.csv
+  total_applications: 72
+  category_counts:
+    Data Science: 19
+    AI Engineering: 11
+    Consulting: 10
+    GenAI / LLM: 9
+    Software Engineering: 8
+    Fintech: 5
+    Computer Vision: 3
+    Technology: 3
+    GDP: 2
+    Business Intelligence: 2
+  sector_counts:
+    Technology: 60
+    Fintech: 5
+    Consulting: 4
+    Gaming: 1
+    Government: 1
+    Real Estate: 1
+  representative_applications:
+    - job_number: 1
+      raw_title: Associate Consultant - SAP
+      category: Consulting
+      sector: Consulting
+    - job_number: 3
+      raw_title: SiFi AI Engineer
+      category: Software Engineering
+      sector: Technology
+    - job_number: 4
+      raw_title: Al Watania Information Systems (Wisys) AI Developer
+      category: GenAI / LLM
+      sector: Technology
+    - job_number: 5
+      raw_title: Confidential
+      role_title: AI Agent Engineer
+      category: GenAI / LLM
+      sector: Technology
+    - job_number: 9
+      raw_title: Jobgether AI Research Engineer - Reinforcement Learning
+      category: Data Science
+      sector: Technology
+    - job_number: 14
+      raw_title: HALA AI Engineer (All Levels)
+      category: Fintech
+      sector: Technology
+    - job_number: 15
+      raw_title: RER | السجل العقاري SAED GDP
+      category: GDP
+      sector: Real Estate
+  notes:
+    - Application history is derived from the parsed LinkedIn job application PDF, not manually curated.
+    - Some company or role fields may be approximate where LinkedIn headings were ambiguous; raw_title is preserved in the dataset.
+
+source_evidence:
+  cv_pdf:
+    path: C:/Users/Yahya/Downloads/Yahya Al Malallah_CV.pdf
+    extracted_on: 2026-05-31
+  application_dataset:
+    path: data/job_postings/processed/job_postings.csv
+    generated_from: data/raw_docs/linkedin_job_applications_numbered.pdf

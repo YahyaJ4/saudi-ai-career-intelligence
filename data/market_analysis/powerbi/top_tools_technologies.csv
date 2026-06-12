@@ -1,0 +1,17 @@
+tool_technology,count,percentage
+PyTorch,25,34.72
+TensorFlow,22,30.56
+Docker,18,25.00
+SQL,18,25.00
+Azure,17,23.61
+AWS,15,20.83
+MLOps,15,20.83
+RAG,13,18.06
+Kubernetes,12,16.67
+FastAPI,9,12.50
+Pandas,7,9.72
+LangChain,7,9.72
+Power BI,7,9.72
+OpenAI,5,6.94
+Tableau,5,6.94
+SAP,3,4.17

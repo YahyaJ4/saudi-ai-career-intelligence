@@ -1,0 +1,95 @@
+project:
+  name: Saudi AI Career Intelligence
+  target_user: Saudi CS/AI students and fresh graduates
+  dataset_version: initial_72_job_postings
+  source_dataset: data/job_postings/processed/job_postings.csv
+  generated_outputs:
+    - data/market_analysis/role_category_breakdown.csv
+    - data/market_analysis/sector_breakdown.csv
+    - data/market_analysis/skills_tools_frequency.csv
+    - data/market_analysis/company_frequency.csv
+    - data/market_analysis/experience_breakdown.csv
+
+dataset_summary:
+  total_job_postings: 72
+  caveat: >
+    This is a personal application-history dataset, not a complete Saudi labor-market sample.
+    It is still useful because it reflects roles the student is actively targeting.
+
+top_role_categories:
+  - category: Data Science
+    count: 19
+  - category: AI Engineering
+    count: 11
+  - category: Consulting
+    count: 10
+  - category: GenAI / LLM
+    count: 9
+  - category: Software Engineering
+    count: 8
+
+top_sectors:
+  - sector: Technology
+    count: 60
+  - sector: Fintech
+    count: 5
+  - sector: Consulting
+    count: 4
+  - sector: Gaming
+    count: 1
+  - sector: Government
+    count: 1
+  - sector: Real Estate
+    count: 1
+
+top_market_skills_and_tools:
+  - skill_tool: AI
+    count: 42
+  - skill_tool: Machine Learning
+    count: 30
+  - skill_tool: PyTorch
+    count: 25
+  - skill_tool: TensorFlow
+    count: 22
+  - skill_tool: Docker
+    count: 18
+  - skill_tool: SQL
+    count: 18
+  - skill_tool: Azure
+    count: 17
+  - skill_tool: Data Analysis
+    count: 16
+  - skill_tool: AWS
+    count: 15
+  - skill_tool: MLOps
+    count: 15
+  - skill_tool: RAG
+    count: 13
+  - skill_tool: LLMs
+    count: 13
+  - skill_tool: Power BI
+    count: 7
+
+student_positioning:
+  current_strengths:
+    - Python
+    - PyTorch
+    - RAG
+    - applied machine learning
+    - AI research experience
+    - tutoring and communication
+    - some SQL
+  priority_growth_areas:
+    - LangChain
+    - Docker
+    - stronger SQL
+    - Power BI
+    - cloud deployment basics
+    - MLOps and evaluation workflows
+
+recommended_project_strategy:
+  principle: Build portfolio projects that prove applied AI/data capability, not isolated course completion.
+  project_tracks:
+    - Fintech RAG Analyst
+    - Saudi AI Job Market Dashboard
+    - ML Prediction API with Docker

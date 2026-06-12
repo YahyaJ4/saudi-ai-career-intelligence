@@ -1,0 +1,397 @@
+job_number,skill_tool,type,is_known_strength,is_growth_target
+1,SAP,tool_technology,False,False
+2,Artificial Intelligence,skill,False,False
+2,Generative AI,skill,False,False
+2,Research,skill,True,False
+3,Artificial Intelligence,skill,False,False
+3,Data Engineering,skill,False,False
+3,Large Language Models,skill,False,False
+3,Prompt Engineering,skill,False,False
+3,RAG,tool_technology,True,False
+4,Artificial Intelligence,skill,False,False
+4,API Development,skill,False,False
+4,Docker,tool_technology,False,True
+4,Machine Learning,skill,True,False
+4,OpenAI,tool_technology,False,False
+4,Pandas,tool_technology,False,False
+4,Prompt Engineering,skill,False,False
+4,PyTorch,tool_technology,True,False
+4,RAG,tool_technology,True,False
+4,SQL,tool_technology,False,True
+4,TensorFlow,tool_technology,False,False
+5,Artificial Intelligence,skill,False,False
+5,AWS,tool_technology,False,True
+5,Azure,tool_technology,False,True
+5,Docker,tool_technology,False,True
+5,LangChain,tool_technology,False,True
+5,Large Language Models,skill,False,False
+5,OpenAI,tool_technology,False,False
+5,RAG,tool_technology,True,False
+6,SQL,tool_technology,False,True
+7,Artificial Intelligence,skill,False,False
+7,LangChain,tool_technology,False,True
+7,Large Language Models,skill,False,False
+7,Machine Learning,skill,True,False
+7,OpenAI,tool_technology,False,False
+7,Prompt Engineering,skill,False,False
+7,Research,skill,True,False
+9,Artificial Intelligence,skill,False,False
+9,Machine Learning,skill,True,False
+9,NLP,skill,False,False
+9,PyTorch,tool_technology,True,False
+9,Research,skill,True,False
+10,SAP,tool_technology,False,False
+11,Research,skill,True,False
+12,Artificial Intelligence,skill,False,False
+12,Docker,tool_technology,False,True
+12,Generative AI,skill,False,False
+12,Kubernetes,tool_technology,False,False
+12,LangChain,tool_technology,False,True
+12,MLOps,tool_technology,False,True
+12,PyTorch,tool_technology,True,False
+12,RAG,tool_technology,True,False
+12,TensorFlow,tool_technology,False,False
+13,Artificial Intelligence,skill,False,False
+13,Computer Vision,skill,False,False
+13,Data Analysis,skill,True,False
+13,Machine Learning,skill,True,False
+13,PyTorch,tool_technology,True,False
+13,Research,skill,True,False
+13,Tableau,tool_technology,False,False
+13,TensorFlow,tool_technology,False,False
+14,Artificial Intelligence,skill,False,False
+14,AWS,tool_technology,False,True
+14,Azure,tool_technology,False,True
+14,Data Science,skill,True,False
+14,Generative AI,skill,False,False
+14,LangChain,tool_technology,False,True
+14,Large Language Models,skill,False,False
+14,Machine Learning,skill,True,False
+14,NLP,skill,False,False
+14,OpenAI,tool_technology,False,False
+14,PyTorch,tool_technology,True,False
+14,RAG,tool_technology,True,False
+14,TensorFlow,tool_technology,False,False
+16,Artificial Intelligence,skill,False,False
+16,Data Analysis,skill,True,False
+16,Deep Learning,skill,False,False
+16,Docker,tool_technology,False,True
+16,FastAPI,tool_technology,False,True
+16,Large Language Models,skill,False,False
+16,Machine Learning,skill,True,False
+16,NLP,skill,False,False
+16,PyTorch,tool_technology,True,False
+17,Artificial Intelligence,skill,False,False
+18,Artificial Intelligence,skill,False,False
+18,Machine Learning,skill,True,False
+18,NLP,skill,False,False
+18,PyTorch,tool_technology,True,False
+18,Research,skill,True,False
+18,TensorFlow,tool_technology,False,False
+19,Artificial Intelligence,skill,False,False
+19,AWS,tool_technology,False,True
+19,Azure,tool_technology,False,True
+19,Machine Learning,skill,True,False
+21,Artificial Intelligence,skill,False,False
+21,Data Analysis,skill,True,False
+21,Deep Learning,skill,False,False
+21,Machine Learning,skill,True,False
+21,MLOps,tool_technology,False,True
+21,PyTorch,tool_technology,True,False
+21,TensorFlow,tool_technology,False,False
+22,Artificial Intelligence,skill,False,False
+22,AWS,tool_technology,False,True
+22,Azure,tool_technology,False,True
+22,Docker,tool_technology,False,True
+22,FastAPI,tool_technology,False,True
+22,Large Language Models,skill,False,False
+22,Prompt Engineering,skill,False,False
+22,RAG,tool_technology,True,False
+23,Artificial Intelligence,skill,False,False
+23,Data Analysis,skill,True,False
+23,Data Science,skill,True,False
+23,Power BI,tool_technology,False,True
+23,Research,skill,True,False
+23,SQL,tool_technology,False,True
+23,Tableau,tool_technology,False,False
+24,Kubernetes,tool_technology,False,False
+25,Artificial Intelligence,skill,False,False
+25,Computer Vision,skill,False,False
+25,Data Science,skill,True,False
+25,Deep Learning,skill,False,False
+25,Docker,tool_technology,False,True
+25,Kubernetes,tool_technology,False,False
+25,Machine Learning,skill,True,False
+25,PyTorch,tool_technology,True,False
+25,Research,skill,True,False
+25,SQL,tool_technology,False,True
+25,TensorFlow,tool_technology,False,False
+26,Artificial Intelligence,skill,False,False
+26,AWS,tool_technology,False,True
+26,Azure,tool_technology,False,True
+26,Data Analysis,skill,True,False
+26,Data Engineering,skill,False,False
+26,Data Science,skill,True,False
+26,Deep Learning,skill,False,False
+26,Docker,tool_technology,False,True
+26,FastAPI,tool_technology,False,True
+26,Kubernetes,tool_technology,False,False
+26,Machine Learning,skill,True,False
+26,MLOps,tool_technology,False,True
+26,Pandas,tool_technology,False,False
+26,PyTorch,tool_technology,True,False
+26,SQL,tool_technology,False,True
+26,TensorFlow,tool_technology,False,False
+27,Artificial Intelligence,skill,False,False
+27,Docker,tool_technology,False,True
+27,Generative AI,skill,False,False
+27,Kubernetes,tool_technology,False,False
+27,LangChain,tool_technology,False,True
+27,MLOps,tool_technology,False,True
+27,PyTorch,tool_technology,True,False
+27,RAG,tool_technology,True,False
+27,TensorFlow,tool_technology,False,False
+28,Computer Vision,skill,False,False
+28,Data Engineering,skill,False,False
+28,Deep Learning,skill,False,False
+28,Docker,tool_technology,False,True
+28,FastAPI,tool_technology,False,True
+28,MLOps,tool_technology,False,True
+29,Artificial Intelligence,skill,False,False
+29,Large Language Models,skill,False,False
+29,Machine Learning,skill,True,False
+31,Artificial Intelligence,skill,False,False
+31,Azure,tool_technology,False,True
+31,Machine Learning,skill,True,False
+31,MLOps,tool_technology,False,True
+31,PyTorch,tool_technology,True,False
+31,SQL,tool_technology,False,True
+31,TensorFlow,tool_technology,False,False
+33,Artificial Intelligence,skill,False,False
+33,Computer Vision,skill,False,False
+33,Machine Learning,skill,True,False
+33,SQL,tool_technology,False,True
+34,Artificial Intelligence,skill,False,False
+34,Azure,tool_technology,False,True
+34,Docker,tool_technology,False,True
+34,Generative AI,skill,False,False
+34,Large Language Models,skill,False,False
+34,Machine Learning,skill,True,False
+34,NLP,skill,False,False
+34,Prompt Engineering,skill,False,False
+34,RAG,tool_technology,True,False
+35,Data Analysis,skill,True,False
+35,Data Science,skill,True,False
+35,Power BI,tool_technology,False,True
+35,SQL,tool_technology,False,True
+35,Tableau,tool_technology,False,False
+36,Artificial Intelligence,skill,False,False
+36,AWS,tool_technology,False,True
+36,Azure,tool_technology,False,True
+36,Data Analysis,skill,True,False
+36,Data Science,skill,True,False
+36,Deep Learning,skill,False,False
+36,Generative AI,skill,False,False
+36,Large Language Models,skill,False,False
+36,Machine Learning,skill,True,False
+36,MLOps,tool_technology,False,True
+36,NLP,skill,False,False
+36,Prompt Engineering,skill,False,False
+36,PyTorch,tool_technology,True,False
+36,RAG,tool_technology,True,False
+36,Research,skill,True,False
+36,TensorFlow,tool_technology,False,False
+37,Artificial Intelligence,skill,False,False
+38,SQL,tool_technology,False,True
+39,AWS,tool_technology,False,True
+39,Azure,tool_technology,False,True
+39,Data Engineering,skill,False,False
+39,SQL,tool_technology,False,True
+40,Artificial Intelligence,skill,False,False
+40,LangChain,tool_technology,False,True
+40,RAG,tool_technology,True,False
+42,Artificial Intelligence,skill,False,False
+42,AWS,tool_technology,False,True
+42,Azure,tool_technology,False,True
+42,Computer Vision,skill,False,False
+42,Deep Learning,skill,False,False
+42,Machine Learning,skill,True,False
+42,MLOps,tool_technology,False,True
+42,NLP,skill,False,False
+42,PyTorch,tool_technology,True,False
+42,Research,skill,True,False
+42,TensorFlow,tool_technology,False,False
+43,Artificial Intelligence,skill,False,False
+43,AWS,tool_technology,False,True
+43,Azure,tool_technology,False,True
+43,Data Science,skill,True,False
+43,Docker,tool_technology,False,True
+43,Kubernetes,tool_technology,False,False
+43,Large Language Models,skill,False,False
+43,OpenAI,tool_technology,False,False
+43,Prompt Engineering,skill,False,False
+43,RAG,tool_technology,True,False
+44,SQL,tool_technology,False,True
+45,Artificial Intelligence,skill,False,False
+45,Data Science,skill,True,False
+45,Generative AI,skill,False,False
+45,Research,skill,True,False
+46,Data Science,skill,True,False
+46,Machine Learning,skill,True,False
+47,Data Science,skill,True,False
+47,Machine Learning,skill,True,False
+47,Power BI,tool_technology,False,True
+47,PyTorch,tool_technology,True,False
+47,SQL,tool_technology,False,True
+47,Tableau,tool_technology,False,False
+47,TensorFlow,tool_technology,False,False
+48,Artificial Intelligence,skill,False,False
+48,AWS,tool_technology,False,True
+48,Azure,tool_technology,False,True
+48,Docker,tool_technology,False,True
+48,FastAPI,tool_technology,False,True
+48,Generative AI,skill,False,False
+48,Kubernetes,tool_technology,False,False
+48,Large Language Models,skill,False,False
+48,Machine Learning,skill,True,False
+48,MLOps,tool_technology,False,True
+48,Pandas,tool_technology,False,False
+49,Artificial Intelligence,skill,False,False
+49,AWS,tool_technology,False,True
+49,Azure,tool_technology,False,True
+49,Data Analysis,skill,True,False
+49,Data Engineering,skill,False,False
+49,Data Science,skill,True,False
+49,Deep Learning,skill,False,False
+49,Docker,tool_technology,False,True
+49,FastAPI,tool_technology,False,True
+49,Kubernetes,tool_technology,False,False
+49,Machine Learning,skill,True,False
+49,MLOps,tool_technology,False,True
+49,Pandas,tool_technology,False,False
+49,PyTorch,tool_technology,True,False
+49,SQL,tool_technology,False,True
+49,TensorFlow,tool_technology,False,False
+50,Artificial Intelligence,skill,False,False
+50,Data Analysis,skill,True,False
+50,Deep Learning,skill,False,False
+50,Machine Learning,skill,True,False
+50,PyTorch,tool_technology,True,False
+50,TensorFlow,tool_technology,False,False
+51,Artificial Intelligence,skill,False,False
+51,Data Analysis,skill,True,False
+51,Data Science,skill,True,False
+51,Machine Learning,skill,True,False
+51,NLP,skill,False,False
+51,Pandas,tool_technology,False,False
+51,PyTorch,tool_technology,True,False
+51,Research,skill,True,False
+51,TensorFlow,tool_technology,False,False
+52,AWS,tool_technology,False,True
+52,Docker,tool_technology,False,True
+52,Kubernetes,tool_technology,False,False
+53,Kubernetes,tool_technology,False,False
+54,Artificial Intelligence,skill,False,False
+55,Azure,tool_technology,False,True
+55,Data Analysis,skill,True,False
+55,Data Science,skill,True,False
+55,Power BI,tool_technology,False,True
+55,SAP,tool_technology,False,False
+55,SQL,tool_technology,False,True
+56,Data Analysis,skill,True,False
+56,Data Science,skill,True,False
+56,Power BI,tool_technology,False,True
+56,SQL,tool_technology,False,True
+56,Tableau,tool_technology,False,False
+57,Data Analysis,skill,True,False
+57,Deep Learning,skill,False,False
+57,Docker,tool_technology,False,True
+57,FastAPI,tool_technology,False,True
+57,Large Language Models,skill,False,False
+57,Machine Learning,skill,True,False
+57,MLOps,tool_technology,False,True
+57,NLP,skill,False,False
+57,PyTorch,tool_technology,True,False
+58,Artificial Intelligence,skill,False,False
+58,Docker,tool_technology,False,True
+58,Generative AI,skill,False,False
+58,Kubernetes,tool_technology,False,False
+58,LangChain,tool_technology,False,True
+58,MLOps,tool_technology,False,True
+58,PyTorch,tool_technology,True,False
+58,RAG,tool_technology,True,False
+58,TensorFlow,tool_technology,False,False
+59,Computer Vision,skill,False,False
+59,Data Engineering,skill,False,False
+59,Deep Learning,skill,False,False
+59,Docker,tool_technology,False,True
+59,FastAPI,tool_technology,False,True
+59,MLOps,tool_technology,False,True
+61,Power BI,tool_technology,False,True
+61,Research,skill,True,False
+62,Artificial Intelligence,skill,False,False
+62,Computer Vision,skill,False,False
+62,Generative AI,skill,False,False
+62,PyTorch,tool_technology,True,False
+62,TensorFlow,tool_technology,False,False
+63,Artificial Intelligence,skill,False,False
+63,AWS,tool_technology,False,True
+63,Azure,tool_technology,False,True
+63,Docker,tool_technology,False,True
+63,FastAPI,tool_technology,False,True
+63,Generative AI,skill,False,False
+63,Kubernetes,tool_technology,False,False
+63,Large Language Models,skill,False,False
+63,Machine Learning,skill,True,False
+63,MLOps,tool_technology,False,True
+63,Pandas,tool_technology,False,False
+64,Artificial Intelligence,skill,False,False
+64,Data Analysis,skill,True,False
+64,Deep Learning,skill,False,False
+64,Machine Learning,skill,True,False
+64,PyTorch,tool_technology,True,False
+64,TensorFlow,tool_technology,False,False
+65,Data Science,skill,True,False
+65,Pandas,tool_technology,False,False
+65,Power BI,tool_technology,False,True
+65,SQL,tool_technology,False,True
+66,Business Analysis,skill,False,False
+66,SQL,tool_technology,False,True
+67,Artificial Intelligence,skill,False,False
+67,AWS,tool_technology,False,True
+67,Azure,tool_technology,False,True
+67,Computer Vision,skill,False,False
+67,Data Analysis,skill,True,False
+67,Data Engineering,skill,False,False
+67,Data Science,skill,True,False
+67,Machine Learning,skill,True,False
+67,MLOps,tool_technology,False,True
+67,NLP,skill,False,False
+67,PyTorch,tool_technology,True,False
+67,TensorFlow,tool_technology,False,False
+68,Data Science,skill,True,False
+68,Research,skill,True,False
+69,Artificial Intelligence,skill,False,False
+69,API Development,skill,False,False
+69,AWS,tool_technology,False,True
+69,Azure,tool_technology,False,True
+69,Computer Vision,skill,False,False
+69,Deep Learning,skill,False,False
+69,Machine Learning,skill,True,False
+69,NLP,skill,False,False
+69,PyTorch,tool_technology,True,False
+69,Research,skill,True,False
+69,TensorFlow,tool_technology,False,False
+70,SQL,tool_technology,False,True
+71,Artificial Intelligence,skill,False,False
+71,Machine Learning,skill,True,False
+71,NLP,skill,False,False
+71,Research,skill,True,False
+72,Artificial Intelligence,skill,False,False
+72,Data Analysis,skill,True,False
+72,Data Science,skill,True,False
+72,Machine Learning,skill,True,False
+72,NLP,skill,False,False
+72,PyTorch,tool_technology,True,False
+72,RAG,tool_technology,True,False
+72,TensorFlow,tool_technology,False,False

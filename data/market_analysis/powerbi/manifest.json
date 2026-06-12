@@ -1,0 +1,17 @@
+{
+  "source_dataset": "data\\job_postings\\processed\\job_postings.csv",
+  "output_folder": "data\\market_analysis\\powerbi",
+  "tables": [
+    "company_breakdown.csv",
+    "job_location_bridge.csv",
+    "job_skill_tool_bridge.csv",
+    "jobs_powerbi.csv",
+    "location_distribution.csv",
+    "project_recommendations_powerbi.csv",
+    "role_category_breakdown.csv",
+    "sector_breakdown.csv",
+    "seniority_breakdown.csv",
+    "top_skills_requested.csv",
+    "top_tools_technologies.csv"
+  ]
+}
