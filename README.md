@@ -1,127 +1,107 @@
 # Saudi AI Career Intelligence
 
-AI-powered labor market intelligence for Saudi Arabia's AI, data, and technology careers.
+AI-powered labor market intelligence for Saudi AI, data, and technology careers in Saudi Arabia.
 
-## Project overview
+## Overview
 
-Saudi AI Career Intelligence is a practical AI/data portfolio project that turns Saudi job market data and national strategy documents into actionable career decision support. The repository combines job-posting parsing, market analysis, Power BI-ready exports, and a planning foundation for a retrieval-augmented career assistant.
+Saudi AI Career Intelligence is a portfolio-focused AI/data analytics project that turns real Saudi job-market data and national strategy documents into actionable career guidance. The repository captures parsed job postings, market analysis outputs, and the foundation for a retrieval-augmented career assistant.
 
-## Motivation
+## Why This Matters
 
-Students, recruiters, and early-career technologists need a clearer signal about which skills, roles, and sectors Saudi AI employers are actually hiring for. This project was built from real LinkedIn job postings and strategy documents to create grounded, evidence-driven labor market intelligence.
+Saudi Arabia is investing heavily in AI, data, and digital transformation, but students and early-career professionals often lack visibility into which roles, skills, and projects align with real hiring demand.
 
-## Problem statement
+This project helps bridge that gap with structured labor market intelligence, practical market signals, and early-stage career recommendation planning.
+
+## Problem Statement
 
 Saudi AI and data career search is fragmented:
 
-- Job descriptions use inconsistent language across AI, data, and software tracks.
-- Skills and role titles overlap in ways that make resume positioning difficult.
-- National strategy documents are hard to connect to actual hiring demand.
+- Job descriptions use inconsistent role titles across AI, data, and software tracks.
+- Skills and tools are listed inconsistently, making resume positioning difficult.
+- Strategy documents and national initiatives are hard to connect to actual hiring demand.
 
-This project makes the data usable for resume preparation, portfolio planning, and recruiter-facing insights.
+This project organizes those inputs into a more usable view for recruiting, portfolio planning, and early-career decision support.
 
-## Current dataset
+## Data Sources
+
+### Job Market Data
 
 - 72 parsed LinkedIn job postings
 - Role category breakdown
 - Sector breakdown
-- Skills and tools frequency analysis
+- Skills/tools frequency analysis
 - Power BI-ready CSV exports
-- Raw text and structured processed outputs
 
-## System architecture
+### Strategy & Context Documents
 
-The architecture has two core tracks:
-
-1. Market intelligence pipeline
-2. Retrieval-Augmented Generation (RAG) assistant
-
-![Architecture diagram](docs/architecture.png)
-
-### Raw sources
-
-- LinkedIn job postings
 - Vision 2030 reports
 - AI governance documents
 - Skills frameworks
 - Personal profile
 
-### Market analysis flow
+## System Architecture
 
-Data ingestion → parsing and cleaning → market analysis pipeline → Power BI-ready CSVs → dashboard insights
+![Architecture Diagram](docs/architecture.png)
 
-### RAG flow
+## Current Project Status
 
-Documents → chunking → embeddings → vector database → RAG assistant → career recommendations
+| Component | Status |
+|----------|--------|
+| Job posting parsing | Complete |
+| Market analysis pipeline | Complete |
+| Power BI-ready exports | Complete |
+| Dashboard design | In progress |
+| RAG assistant skeleton | In progress |
+| Streamlit prototype | In progress |
+| Deployment | Planned |
 
 ## Features
 
-- Job posting parsing from raw application documents
-- Skill/tool extraction and normalization
-- Role and sector classification
+- Structured parsing of Saudi AI job postings
+- Role category and sector analysis
+- Skills and tools frequency extraction
 - Power BI-ready analytics exports
-- RAG assistant architecture planned
-- Resume and portfolio-ready insight generation
+- RAG assistant architecture planning
+- Documentation and portfolio-ready presentation
 
-## Market analysis pipeline
+## Market Analysis Pipeline
 
-Scripts convert parsed job postings into:
+The market analysis pipeline converts parsed job postings into dashboard-ready outputs, including role and sector summaries, skills and tools frequency, company signals, and seniority/location breakdowns.
 
-- Role category summaries
-- Sector frequency tables
-- Top skills and tools
-- Company signal tables
-- Seniority and location breakdowns
-- Recommendation guidance for portfolio projects
+## Power BI Dashboard Plan
 
-## Power BI dashboard plan
+The dashboard plan uses `data/market_analysis/powerbi` exports to visualize job-market signals with summary charts for:
 
-A dedicated guide supports Power BI dashboard design using `data/market_analysis/powerbi`. The dashboard is designed to surface:
-
-- total jobs analyzed
-- role categories in demand
-- sector distribution
-- skill/tool signals
+- job and role distribution
+- sector demand
+- skills and tools
+- company frequency
 - location and seniority patterns
-- project recommendation evidence
 
-## RAG assistant plan
+## RAG Assistant Plan
 
-A Streamlit prototype skeleton is available in `src/app.py`. The planned assistant will:
+The RAG plan is based on a document retrieval track that indexes job postings, strategy reports, skills frameworks, and personal profile data. The system is designed to support career questions with chunking, embeddings, and Chroma-based retrieval.
 
-- index job postings and strategy documents
-- retrieve relevant career intelligence chunks
-- answer questions about Saudi AI roles, skills, and project roadmaps
-- support grounded recommendations with source citations
+## Results & Progress
 
-## Results & progress
-
-- 72 parsed LinkedIn job postings processed into structured datasets
+- 72 parsed LinkedIn job postings
 - Role category breakdown completed
-- Sector distribution and company frequency reports generated
-- Skills and tools frequency analysis produced
-- Power BI-ready exports assembled in `data/market_analysis/powerbi`
-- Streamlit/RAG prototype skeleton built in `src/app.py`
-- Architecture diagram created in `docs/architecture.png`
+- Sector distribution generated
+- Skills/tools frequency analysis produced
+- Power BI-ready exports assembled
+- Streamlit/RAG prototype skeleton built
 
-### In progress / planned
-
-- Full RAG assistant deployment
-- Streamlit interface refinement
-- Dashboard visuals and screenshot assets
-- Docker-ready deployment
-- Additional Saudi strategy document indexing
-
-## Repository structure
+## Repository Structure
 
 - `data/` — raw inputs, processed job postings, market analysis exports
 - `docs/` — architecture diagram, project story, dashboard guide, roadmap, resume bullets
-- `scripts/` — data parsing and analysis pipelines
+- `screenshots/` — placeholder visuals
+- `scripts/` — parsing and analysis pipelines
 - `src/` — prototype app, document ingestion, chunking, embeddings, retrieval
 - `.env.example` — API key template
 - `requirements.txt` — Python dependencies
 
-## How to run
+## How to Run
 
 1. Install dependencies:
    ```bash
@@ -146,26 +126,24 @@ A Streamlit prototype skeleton is available in `src/app.py`. The planned assista
 
 ## Roadmap
 
-- Complete a production-ready Power BI dashboard
+- Finalize Power BI dashboard visuals
 - Build the RAG retrieval pipeline with Chroma embeddings
-- Add a student-facing Streamlit recommendation interface
-- Dockerize the application
-- Share the project as a portfolio asset for recruiters, AI engineers, and early-career technologists
+- Refine the Streamlit career intelligence prototype
+- Add deployment packaging and delivery
 
-## Resume impact
+## Portfolio Value
 
-This project demonstrates:
+This project demonstrates practical AI/data product work with real labor market inputs, including:
 
-- AI/product thinking with labor market analytics
-- Data engineering for real job-market inputs
-- Model-backed career recommendation planning
-- Dashboard and decision-support readiness
-- Hands-on experience with LangChain, vector search, and Streamlit
+- parsing and structuring job-market data
+- analytics pipeline design
+- dashboard-ready output generation
+- retrieval-based career intelligence planning
 
 ## Screenshots
 
-- `screenshots/dashboard-preview.png`
-- `screenshots/data-pipeline.png`
-- `screenshots/rag-assistant-preview.png`
+- `screenshots/dashboard-preview.png` — planned
+- `screenshots/data-pipeline.png` — planned
+- `screenshots/rag-assistant-preview.png` — planned
 
-> Notes: These are placeholder assets. Replace them with actual dashboard and prototype screenshots as the project evolves.
+> Screenshot assets will be replaced as the dashboard and Streamlit prototype mature.
